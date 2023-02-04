@@ -1,8 +1,0 @@
-{
-    "compilerOptions": {
-        "baseUrl": "src"
-    }, 
-    "include": ["src"]
-}
-
-// Absolute imports starting from the src directory

@@ -23,7 +23,7 @@ function App() {
           <Routes>
             <Route element={<Layout />}>
               <Route path="/" element={<Navigate to="/dashboard" replace />} />
-              <Route element={<Dashboard />} path="/dashboard" />
+              <Route path="/dashboard" element={<Dashboard />} />
             </Route>
           </Routes>
         </ThemeProvider>

@@ -7,6 +7,7 @@ import {
   SettingsOutlined,
   ArrowDropDownOutlined,
 } from "@mui/icons-material";
+
 import FlexBetween from "./FlexBetween";
 import { useDispatch } from "react-redux";
 import { setMode } from "../state/globalSlice";
@@ -22,6 +23,7 @@ import {
 const Navbar = (props) => {
   const dispatch = useDispatch();
   const theme = useTheme();
+
   return (
     <AppBar
       sx={{

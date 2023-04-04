@@ -1,12 +1,7 @@
 import React from "react";
 
 const Dashboard = (props) => {
-  return (
-    <div>
-      Dashboard
-      <h1>This is testing after I've cloned repo</h1>
-    </div>
-  );
+  return <div>Dashboard</div>;
 };
 
 export default Dashboard;

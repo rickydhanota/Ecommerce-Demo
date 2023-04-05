@@ -5,7 +5,12 @@ import App from "./App";
 import store from "./app/store";
 import { Provider } from "react-redux";
 
+import { setupListeners } from "@reduxjs/toolkit/query";
+import { api } from "./state/api";
+
 import "./index.css";
+
+setupListeners(store.dispatch);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
